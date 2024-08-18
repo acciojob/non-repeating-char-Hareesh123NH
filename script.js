@@ -8,9 +8,9 @@ function firstNonRepeatedChar(str) {
 	for(let char of str){
 		if(charcount.get(char)===1){
 			return char;
-		}
+		}  
 	}
 	return null;
 }
-//const input = prompt("Enter a string");
-//alert(firstNonRepeatedChar(input)); 
+const input = prompt("Enter a string");
+alert(firstNonRepeatedChar(input)); 
